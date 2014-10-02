@@ -1,8 +1,9 @@
-data
-====
+## Description of Atomic Data for the MCRT Code Python
 
-The repository which contains the atomic data for the radiative transfer code PYTHON
-This includes spectral models for use with python as well as atomic data and linelists
+This is a directory which contains all of the various types
+of data that one might want to use.  This includes spectral
+models for use with python as well as atomic data and linelists
+
 
 ### Atomic Datasets
 
@@ -31,14 +32,14 @@ This includes spectral models for use with python as well as atomic data and lin
 
 ### Disk/Stellar Models
 
-To use put data/masterfile in your parameter file, e.g. data/model_kurucz91. 
+To use put data/masterfile.ls in your parameter file, e.g. data/model_kurucz91. 
 
-* model_kurucz91: Kurucz model atmospheres. Grid goes to 50,000K and log(g) = 5
-* kurucz_d14: Kurucz model atmospheres . Grid goes to 50,000K and log(g) = 5
-* tlusty_d14: TLUSTY model atmospheres. Grid goes to 50,000K and log(g) = 5
-* kur_tlusty_hybrid: Kurucz + TLUSTY hybrid model atmosphere's. Current benchmark SA grid for accretion disk.
-* model_disk06: Disk 06 models
-* model_lejeune: A set of stellar models from lejeune.  Not yet used. Their advantage is that they go further into the IR than kurucz
+* kurucz91.ls: Kurucz model atmospheres. Grid goes to 50,000K and log(g) = 5
+* kurucz_d14.ls: Kurucz model atmospheres run through Synspec. Grid goes to 50,000K and log(g) = 5
+* tlusty_d14.ls: TLUSTY model atmospheres. Grid goes to 130,000K and log(g) = 9
+* kur_tlusty_hybrid.ls: Kurucz + TLUSTY hybrid model atmosphere's. Current benchmark SA grid for accretion disk.
+* disk06.ls: Disk 06 models
+* lejeune.ls: A set of stellar models from lejeune.  Not yet used. Their advantage is that they go further into the IR than kurucz
 
 **Folders:** Masterfiles have same names as folders, except for the d14 and kur_tlusty_hybrid models which are contained in disk14 folder.
 
