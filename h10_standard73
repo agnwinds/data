@@ -27,5 +27,5 @@ data/atomic73/chianti_dr.dat
 data/atomic73/chianti_rr.dat
 #Next is badnell style ground state radiative recombinaion rate
 data/atomic73/Badnell_GS_RR.txt
-#Necxt if gaunt factor data from sutherland (1997)
+#Next if gaunt factor data from sutherland (1997)
 data/atomic73/gffint.dat
