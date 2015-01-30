@@ -23,3 +23,5 @@ data/atomic77/chianti_rr.dat
 data/atomic77/Badnell_GS_RR.txt
 #Necxt if gaunt factor data from sutherland (1997)
 data/atomic77/gffint.dat
+#Next is direct ioinzation from dere
+data/atomic77/di_dere.dat
