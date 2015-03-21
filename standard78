@@ -13,7 +13,7 @@ data/atomic78/topbase_he1_phot_extrap.py
 data/atomic78/topbase_he2_phot_extrap.py
 data/atomic78/topbase_cno_phot_extrap.py
 data/atomic78/topbase_fe_phot_extrap.py
-data/atomic78/photo_fkvy.data
+data/atomic78/photo_vfky_tabulated.data
 data/atomic78/coll.data
 #Next is dielectronic recombination data from chianti.
 data/atomic78/chianti_dr.dat
