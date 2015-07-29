@@ -10,6 +10,10 @@ data/atomic79/excited.py
 data/atomic79/recomb.data
 #Next is VFKY PI cross sections, supplemented with VY data out to 50kev.
 data/atomic79/vfky_outershell_tab.data
+#Next is VY inner shell photoionization cross sections
+data/atomic79/vy_innershell_tab.data
+#Now we have electron yield data from Kaastra and Mewe, matching the inner shells
+data/atomic79/kaastra_electron_yield.data
 data/atomic79/coll.data
 #Next is dielectronic recombination data from chianti.
 data/atomic79/chianti_dr.dat
