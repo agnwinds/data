@@ -56,6 +56,15 @@ Not all currently maintained.
 
 ### Using Old Atomic Data
 
+The branch `old_data` contains the archived atomic datasets. You can checkout old versions with the following command, providing you have pulled the old_data branch from the remote repository
+
+```
+git checkout dataxx
+```
+
+where xx is a string like 77. This will actually get the old version of the data, complete with old formats. This means, for example, that the photoionization data from VFKY may not be tabulated, so you will need a version of the code which corresponds to the atomic data version number.
+
+To simply run old datasets with the current format philosophy, use the masterfiles in the directory.
 
 
 ### History:
