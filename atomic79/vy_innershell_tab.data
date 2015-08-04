@@ -2,7 +2,7 @@
 # It is processed via the python script verner_2_py.py from simple text dumps of the online
 # data from these two papers
 #
-label z state n_shell l_subshell theshold_energy n_points
+#label z state n_shell l_subshell theshold_energy n_points
 InnerVYS 3 1 1 0 6.439e+01 100
 InnerVY 6.4390e+01 3.4600e-18
 InnerVY 6.8867e+01 3.1254e-18

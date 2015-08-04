@@ -5,7 +5,7 @@
 # data from these two papers
 #
 # The data is read in using the topbase mechanics, so level and level_label are just placholders
-Label z state islp(placeholder) level(placeholder) theshold_energy n_points
+#Label z state islp(placeholder) level(placeholder) theshold_energy n_points
 PhotVfkyS 1 1 -999 -999 1.360e+01 100
 PhotVfky 1.3600e+01 6.3463e-18
 PhotVfky 1.4776e+01 5.0743e-18
