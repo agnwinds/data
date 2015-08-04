@@ -9,22 +9,19 @@ models for use with python as well as atomic data and linelists
 
 **Masterfiles:** These data sets have their masterfiles in the masterfiles folder. To use put data/masterfile in your parameter file.
 
-* h10: 10 level Hydrogen only macro-atom
-* h10_he20_standard73: 10 level Hydrogen macro-atom, 20 level Helium macro-atom, standard73 for simple ions 
-* h10_hetop_standard73: 10 level Hydrogen macro-atom, 53 level Helium macro-atom topbase, standard73 for simple ions 
-* h10_hetop_standard73: 10 level Hydrogen macro-atom, 53 level Helium macro-atom topbase, standard77 for simple ions 
-* h10_standard73: 10 level Hydrogen macro-atom, standard73 for simple ions 
-* h20: 20 level Hydrogen macro-atom only (Sim et al. 2005)
-* h20_he20_standard73: 20 level Hydrogen macro-atom, 20 level Helium macro-atom, standard73 for simple ions 
-* h20_hetop_standard73: 20 level Hydrogen macro-atom, 53 level Helium macro-atom topbase, standard73 for simple ions 
-* h20_hetop_standard73: 20 level Hydrogen macro-atom, 53 level Helium macro-atom topbase, standard77 for simple ions 
-* h20_standard73: 20 level Hydrogen macro-atom, standard73 for simple ions
 * h3: 3 level Hydrogen only macro-atom 
 * h4: 4 level Hydrogen only macro-atom
+* h10: 10 level Hydrogen only macro-atom
+* h20: 20 level Hydrogen macro-atom only (Sim et al. 2005)
+* h10_standard78: 10 level Hydrogen macro-atom, standard73 for simple ions 
+* h10_hetop_standard78: 10 level Hydrogen macro-atom, 53 level Helium macro-atom topbase, standard78 for simple ions 
+* h20_hetop_standard78: 20 level Hydrogen macro-atom, 53 level Helium macro-atom topbase, standard78 for simple ions (Matthews+ 2015)
 * standard39: standard data set using atomic 39 (Long & Knigge 2002, Noebauer et al. 2010)
 * standard70: standard data set using atomic 39 - interim version of atomic data used during AGN development
 * standard73: standard data set using atomic 39 (Higginbottom et al. 2013)
 * standard77: standard data set using atomic 77- includes extrapolated XSections (Higginbottom et al. 2014)
+* standard78 (STANDARD): standard data set using atomic 78- includes Dere PI data
+* standard79 (BETA): standard data set using atomic 79- electron yield data from Kaastra and Mewe and VY inner shell cross sections
 * standard_sn_kurucz: dataset with Supernovae abundances, for use for comparison with Tardis.
 
 **Folders:** All macro atom data contains in atomic_macro. Atomic data for the required version in atomicxx, i.e. standard77 uses atomic77.
@@ -53,6 +50,22 @@ Not all currently maintained.
 * calculate_atomic: this old folder should probably be archived here.
 
 * hutdisk93: A set of stellar spectra calculated with TLUSTY/Synspec that KSL has used extenstively for calculations in the UV
+
+
+
+
+### Using Old Atomic Data
+
+The branch `old_data` contains the archived atomic datasets. You can checkout old versions with the following command, providing you have pulled the old_data branch from the remote repository
+
+```
+git checkout dataxx
+```
+
+where xx is a string like 77. This will actually get the old version of the data, complete with old formats. This means, for example, that the photoionization data from VFKY may not be tabulated, so you will need a version of the code which corresponds to the atomic data version number.
+
+To simply run old datasets with the current format philosophy, use the masterfiles in the directory.
+
 
 ### History:
 
