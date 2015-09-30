@@ -1,9 +1,17 @@
 ## Description of Atomic Data for the MCRT Code Python
-## ARCHIVE: DATA39 
+### Archive: data39 
 
 This is a directory which contains all of the various types
 of data that one might want to use.  This includes spectral
-models for use with python as well as atomic data and linelists
+models for use with python as well as atomic data and linelists.
+
+this particular version is an archived atomic dataset which one should use if trying to reproduce the results of:
+
+* Sim et al. 2005, MNRAS, 363, 615
+* Long & Knigge 2002, ApJ, 579, 725
+* Noebauer et al. 2010, ApJ, 719, 1932
+
+I would recommend running with something like Python 58. 
 
 ### Atomic Datasets
 
@@ -42,12 +50,3 @@ where xx is a string like 77. This will actually get the old version of the data
 
 To simply run old datasets with the current format philosophy, use the masterfiles in the directory.
 
-### DATA 39 PUBLICATIONS
-
-data39 is the atomic dataset which one should use if trying to reproduce the results of:
-
-* Sim et al. 2005, MNRAS, 363, 615
-* Long & Knigge 2002, ApJ, 579, 725
-* Noebauer et al. 2010, ApJ, 719, 1932
-
-I would recommend running with something like Python 58.
