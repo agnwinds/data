@@ -336,15 +336,16 @@ Level   6   2  27    4  28.260595
 # Comment-- Ion C  3
 # There are 10 unique levels for 6 3
 Level   6   3   0    1   0.000000
-Level   6   3   1    3  12.691670
-Level   6   3   2    3  32.107525
-Level   6   3   3    3  38.440838
-Level   6   3   4    3  39.978176
-Level   6   3   5    3  42.564056
-Level   6   3   6    3  42.992439
-Level   6   3   7    3  44.281662
-Level   6   3   8    3  45.247166
-Level   6   3   9    3  45.870888
+Level   6   3   1    3   6.501637
+Level   6   3   2    3  12.691670
+Level   6   3   3    3  32.107525
+Level   6   3   4    3  38.440838
+Level   6   3   5    3  39.978176
+Level   6   3   6    3  42.564056
+Level   6   3   7    3  42.992439
+Level   6   3   8    3  44.281662
+Level   6   3   9    3  45.247166
+Level   6   3   10   3  45.870888
 # Comment-- Ion C  4
 # There are 18 unique levels for 6 4
 Level   6   4   0    2   0.000000
