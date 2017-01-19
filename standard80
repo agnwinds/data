@@ -38,3 +38,5 @@ data/atomic80/Badnell_GS_RR.txt
 data/atomic80/gffint.dat
 #Next is direct ionization from dere
 data/atomic80/di_dere.dat
+#Next is collision strength data from chianti
+data/atomic80/ver_upsilon_linked.dat
