@@ -2,25 +2,25 @@
 #and lines/continua of other elements from the usual standard 73 set.
 #It be treated with or without the full macro atom formalism for hydrogen only.
 #first macro atom data is read in
-data/atomic_macro/h10_standard73_elem_ions.py
-data/atomic_macro/h10_levels.py
-data/atomic_macro/h10_lines.py
-data/atomic_macro/h10_phot.py
+data/atomic_macro/h10_standard73_elem_ions.dat
+data/atomic_macro/h10_levels.dat
+data/atomic_macro/h10_lines.dat
+data/atomic_macro/h10_phot.dat
 #then read the non macro atom data for all except hydrogen
-data/atomic73/topbase_levels_he.py
-data/atomic73/topbase_levels_cno.py
-data/atomic73/topbase_levels_fe.py
-data/atomic73/levels_ver_2.py
-data/atomic73/lines_linked_ver_2.py
-data/atomic73/excited.py
-data/atomic73/recomb.data
-data/atomic73/topbase_h1_phot.py
-data/atomic73/topbase_he1_phot.py
-data/atomic73/topbase_he2_phot.py
-data/atomic73/topbase_cno_phot.py
-data/atomic73/topbase_fe_phot.py
-data/atomic73/photo_fkvy.data
-data/atomic73/coll.data
+data/atomic73/topbase_levels_he.dat
+data/atomic73/topbase_levels_cno.dat
+data/atomic73/topbase_levels_fe.dat
+data/atomic73/levels_ver_2.dat
+data/atomic73/lines_linked_ver_2.dat
+data/atomic73/excited.dat
+data/atomic73/recomb.dat
+data/atomic73/topbase_h1_phot.dat
+data/atomic73/topbase_he1_phot.dat
+data/atomic73/topbase_he2_phot.dat
+data/atomic73/topbase_cno_phot.dat
+data/atomic73/topbase_fe_phot.dat
+data/atomic73/photo_fkvy.dat
+data/atomic73/coll.dat
 #Next is dielectronic recombination data from chianti.
 data/atomic73/chianti_dr.dat
 #Next is badnell style total radiative recombinaion rate

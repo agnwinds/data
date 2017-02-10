@@ -1,18 +1,18 @@
 #This is the standard set of data files created for python79 - auger ionization data included
-data/atomic80/elem_ions_ver_80.py
-data/atomic80/topbase_all_levels_10_lev.py
-data/atomic80/levels_ver_2.py
-data/atomic80/lines_linked_ver_2.py
-data/atomic80/excited.py
-data/atomic80/recomb.data
-data/atomic80/topbase_phot_h1_extrap.py
+data/atomic80/elem_ions_ver_80.dat
+data/atomic80/topbase_all_levels_10_lev.dat
+data/atomic80/levels_ver_2.dat
+data/atomic80/lines_linked_ver_2.dat
+data/atomic80/excited.dat
+data/atomic80/recomb.dat
+data/atomic80/topbase_phot_h1_extrap.dat
 #data/atomic80/topbase_h1_phot_extrap.py
 #data/atomic80/topbase_he1_phot_extrap.py
 #data/atomic80/topbase_he2_phot_extrap.py
-data/atomic80/topbase_phot_he_extrap.py
-data/atomic80/topbase_cno_phot_extrap.py
+data/atomic80/topbase_phot_he_extrap.dat
+data/atomic80/topbase_cno_phot_extrap.dat
 #data/atomic80/topbase_phot_cno_10_lev_extrap.py
-data/atomic80/topbase_fe_phot_extrap.py
+data/atomic80/topbase_fe_phot_extrap.dat
 #data/atomic80/topbase_phot_fe_10_lev_extrap.py
 #data/atomic80/topbase_phot_fe_22_extrap.py
 #data/atomic80/topbase_phot_fe_23_extrap.py
@@ -20,14 +20,14 @@ data/atomic80/topbase_fe_phot_extrap.py
 #data/atomic80/topbase_phot_fe_25_extrap.py
 #data/atomic80/topbase_phot_fe_26_extrap.py
 #Next is VFKY PI cross sections, supplemented with VY data out to 50kev.
-data/atomic80/vfky_outershell_tab.data
+data/atomic80/vfky_outershell_tab.dat
 #Next is VY inner shell photoionization cross sections
-data/atomic80/vy_innershell_tab.data
+data/atomic80/vy_innershell_tab.dat
 #Now we have electron yield data from Kaastra and Mewe, matching the inner shells
-data/atomic80/kaastra_electron_yield.data
+data/atomic80/kaastra_electron_yield.dat
 #Now we have fluorescent photon yield data from Kaastra and Mewe, matching the inner shells
-data/atomic80/kaastra_fluorescent_yield.data
-data/atomic80/coll.data
+data/atomic80/kaastra_fluorescent_yield.dat
+data/atomic80/coll.dat
 #Next is dielectronic recombination data from chianti.
 data/atomic80/chianti_dr.dat
 #Next is badnell style total radiative recombinaion rate

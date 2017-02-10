@@ -3,32 +3,32 @@
 #and lines/continua of other elements from the usual standard 77 set.
 #It be treated with or without the full macro atom formalism for hydrogen only.
 #first macro atom data is read in
-data/atomic_macro/h10_hetop_standard73_elem_ions.py
-data/atomic_macro/h10_levels.py
-data/atomic_macro/h10_lines.py
-data/atomic_macro/h10_phot.py
-data/atomic_macro/he_top_levels.py
-data/atomic_macro/he_top_lines.py
-data/atomic_macro/he_top_phot_macro.py
+data/atomic_macro/h10_hetop_standard73_elem_ions.dat
+data/atomic_macro/h10_levels.dat
+data/atomic_macro/h10_lines.dat
+data/atomic_macro/h10_phot.dat
+data/atomic_macro/he_top_levels.dat
+data/atomic_macro/he_top_lines.dat
+data/atomic_macro/he_top_phot_macro.dat
 # now standard data
-data/atomic79/topbase_levels_cno.py
+data/atomic79/topbase_levels_cno.dat
 #data/atomic79/topbase_levels_fe.py
-data/atomic79/levels_ver_2.py
-data/atomic79/lines_linked_ver_2.py
-data/atomic79/excited.py
-data/atomic79/recomb.data
-data/atomic78/topbase_he2_phot_extrap.py
-data/atomic78/topbase_cno_phot_extrap.py
-data/atomic78/topbase_fe_phot_extrap.py
+data/atomic79/levels_ver_2.dat
+data/atomic79/lines_linked_ver_2.dat
+data/atomic79/excited.dat
+data/atomic79/recomb.dat
+data/atomic78/topbase_he2_phot_extrap.dat
+data/atomic78/topbase_cno_phot_extrap.dat
+data/atomic78/topbase_fe_phot_extrap.dat
 #Next is VFKY PI cross sections, supplemented with VY data out to 50kev.
-data/atomic79/vfky_outershell_tab.data
+data/atomic79/vfky_outershell_tab.dat
 #Next is VY inner shell photoionization cross sections
-data/atomic79/vy_innershell_tab.data
+data/atomic79/vy_innershell_tab.dat
 #Now we have electron yield data from Kaastra and Mewe, matching the inner shells
-data/atomic79/kaastra_electron_yield.data
+data/atomic79/kaastra_electron_yield.dat
 #Now we have fluorescent photon yield data from Kaastra and Mewe, matching the inner shells
-data/atomic79/kaastra_fluorescent_yield.data
-data/atomic79/coll.data
+data/atomic79/kaastra_fluorescent_yield.dat
+data/atomic79/coll.dat
 #Next is dielectronic recombination data from chianti.
 data/atomic79/chianti_dr.dat
 #Next is badnell style total radiative recombinaion rate

@@ -1,20 +1,20 @@
 #This is the standard set of data files created for python73
-data/atomic_extrap/elem_ions_ver_73.py
-data/atomic_extrap/topbase_levels_h.py
-data/atomic_extrap/topbase_levels_he.py
-data/atomic_extrap/topbase_levels_cno.py
-data/atomic_extrap/topbase_levels_fe.py
-data/atomic_extrap/levels_ver_2.py
-data/atomic_extrap/lines_linked_ver_2.py
-data/atomic_extrap/excited.py
-data/atomic_extrap/recomb.data
-data/atomic_extrap/topbase_h1_phot_extrap.py
-data/atomic_extrap/topbase_he1_phot_extrap.py
-data/atomic_extrap/topbase_he2_phot_extrap.py
-data/atomic_extrap/topbase_cno_phot_extrap.py
-data/atomic_extrap/topbase_fe_phot_extrap.py
-data/atomic_extrap/photo_fkvy.data
-data/atomic_extrap/coll.data
+data/atomic_extrap/elem_ions_ver_73.dat
+data/atomic_extrap/topbase_levels_h.dat
+data/atomic_extrap/topbase_levels_he.dat
+data/atomic_extrap/topbase_levels_cno.dat
+data/atomic_extrap/topbase_levels_fe.dat
+data/atomic_extrap/levels_ver_2.dat
+data/atomic_extrap/lines_linked_ver_2.dat
+data/atomic_extrap/excited.dat
+data/atomic_extrap/recomb.dat
+data/atomic_extrap/topbase_h1_phot_extrap.dat
+data/atomic_extrap/topbase_he1_phot_extrap.dat
+data/atomic_extrap/topbase_he2_phot_extrap.dat
+data/atomic_extrap/topbase_cno_phot_extrap.dat
+data/atomic_extrap/topbase_fe_phot_extrap.dat
+data/atomic_extrap/photo_fkvy.dat
+data/atomic_extrap/coll.dat
 #Next is dielectronic recombination data from chianti.
 data/atomic_extrap/chianti_dr.dat
 #Next is badnell style total radiative recombinaion rate
