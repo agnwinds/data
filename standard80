@@ -1,42 +1,85 @@
-#This is the standard set of data files created for python79 - auger ionization data included
+#This is the standard set of data files created for python81c - collision stength included
+#
+# This first file sets up the basics - abundances and numbers of levels allowed
+#
 data/atomic80/elem_ions_ver_80.py
+#
+# These are the level files used in standard79 - they tend to have very few levels for each state
+# partiularly for the upper levels
+#
+data/atomic79/topbase_levels_h.py
+data/atomic79/topbase_levels_he.py
+data/atomic79/topbase_levels_cno.py
+data/atomic79/topbase_levels_fe.py
+#
+# This is a new level file - all ions have ten levels - this is a reduction for some ions
+#
 data/atomic80/topbase_all_levels_10_lev.py
+#
+# The next file is the levels used to compute line emission
+#
 data/atomic80/levels_ver_2.py
+#
+# And the next is for the actual lines
+#
 data/atomic80/lines_linked_ver_2.py
+#
+# And this next is for the collision strength data - new
+#
+data/atomic80/ver_upsilon_linked.dat
+#
 data/atomic80/excited.py
 data/atomic80/recomb.data
-data/atomic80/topbase_phot_h1_extrap.py
-#data/atomic80/topbase_h1_phot_extrap.py
-#data/atomic80/topbase_he1_phot_extrap.py
-#data/atomic80/topbase_he2_phot_extrap.py
-data/atomic80/topbase_phot_he_extrap.py
-data/atomic80/topbase_cno_phot_extrap.py
-#data/atomic80/topbase_phot_cno_10_lev_extrap.py
-data/atomic80/topbase_fe_phot_extrap.py
+#
+# The next set of topbase PI cross sections are those used in atomic79
+#
+data/atomic79/topbase_h1_phot_extrap.py
+data/atomic79/topbase_he1_phot_extrap.py
+data/atomic79/topbase_he2_phot_extrap.py
+data/atomic79/topbase_cno_phot_extrap.py
+data/atomic79/topbase_fe_phot_extrap.py
+#
+# This helium file contains all helium levels, unlike the limited number in the older files above
+#
+#data/atomic80/topbase_phot_he_extrap.py
+#
+# This iron level file contains 10 levels for each iron stage as opposed to the normal 1(!)
+#
 #data/atomic80/topbase_phot_fe_10_lev_extrap.py
-#data/atomic80/topbase_phot_fe_22_extrap.py
-#data/atomic80/topbase_phot_fe_23_extrap.py
-#data/atomic80/topbase_phot_fe_24_extrap.py
-#data/atomic80/topbase_phot_fe_25_extrap.py
-#data/atomic80/topbase_phot_fe_26_extrap.py
+#
 #Next is VFKY PI cross sections, supplemented with VY data out to 50kev.
+#
 data/atomic80/vfky_outershell_tab.data
+#
 #Next is VY inner shell photoionization cross sections
+#
 data/atomic80/vy_innershell_tab.data
+#
 #Now we have electron yield data from Kaastra and Mewe, matching the inner shells
+#
 data/atomic80/kaastra_electron_yield.data
+#
 #Now we have fluorescent photon yield data from Kaastra and Mewe, matching the inner shells
+#
 data/atomic80/kaastra_fluorescent_yield.data
-data/atomic80/coll.data
+#
 #Next is dielectronic recombination data from chianti.
+#
 data/atomic80/chianti_dr.dat
+#
 #Next is badnell style total radiative recombinaion rate
+#
 data/atomic80/chianti_rr.dat
+#
 #Next is badnell style ground state radiative recombinaion rate
+#
 data/atomic80/Badnell_GS_RR.txt
-#Necxt if gaunt factor data from sutherland (1997)
+#
+#Next is gaunt factor data from sutherland (1997)
+#
 data/atomic80/gffint.dat
+#
 #Next is direct ionization from dere
+#
 data/atomic80/di_dere.dat
-#Next is collision strength data from chianti
-data/atomic80/ver_upsilon_linked.dat
+#
