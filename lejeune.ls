@@ -1,5 +1,3 @@
-2000 50000
--0.5 5.5
 data/lejeune/lej_t02000g03.5.txt             2000   3.5
 data/lejeune/lej_t02000g04.0.txt             2000   4.0
 data/lejeune/lej_t02000g04.5.txt             2000   4.5
