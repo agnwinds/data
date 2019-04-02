@@ -83,10 +83,6 @@ data/atomic80/vy_innershell_tab.data
 #
 data/atomic80/kaastra_electron_yield.data
 #
-#Now we have fluorescent photon yield data from Kaastra and Mewe, matching the inner shells
-#
-data/atomic80/kaastra_fluorescent_yield.data
-#
 #Next is dielectronic recombination data from chianti.
 #
 data/atomic80/chianti_dr.dat
