@@ -1,22 +1,18 @@
-#This is a standard atomic data set for a 10 level hydrogen model
-#and lines/continua of other elements from the usual standard 77 set.
-#It be treated with or without the full macro atom formalism for hydrogen only.
+#This is a standard atomic data set for a 20 level hydrogen model and 20 level helium atom
+#and lines/continua of other elements from the usual standard 73 set.
+#It be treated with or without the full macro atom formalism for hydrogen and helium only.
 #first macro atom data is read in
-data/atomic_macro/h10_standard73_elem_ions.py
+data/atomic_macro/h10_hetop_standard73_elem_ions.py
 data/atomic_macro/h10_levels.py
 data/atomic_macro/h10_lines.py
 data/atomic_macro/h10_phot.py
+data/atomic_macro/he_top_levels.py
+data/atomic_macro/he_top_lines.py
+data/atomic_macro/he_top_phot_macro.py
 #This is the standard set of data files created for python81c - collision stength included
-#
-# This first file sets up the basics - abundances and numbers of levels allowed
-#
-# data/atomic80/elem_ions_ver_80.py
-#
 # These are the level files used in standard79 - they tend to have very few levels for each state
-# partiularly for the upper levels
+# particularly for the upper levels
 #
-data/atomic79/topbase_levels_h.py
-data/atomic79/topbase_levels_he.py
 data/atomic79/topbase_levels_cno.py
 data/atomic79/topbase_levels_fe.py
 #
@@ -41,9 +37,6 @@ data/atomic80/recomb.data
 #
 # The next set of topbase PI cross sections are those used in atomic79
 #
-data/atomic79/topbase_h1_phot_extrap.py
-data/atomic79/topbase_he1_phot_extrap.py
-data/atomic79/topbase_he2_phot_extrap.py
 data/atomic79/topbase_cno_phot_extrap.py
 data/atomic79/topbase_fe_phot_extrap.py
 #
@@ -66,6 +59,10 @@ data/atomic80/vy_innershell_tab.data
 #Now we have electron yield data from Kaastra and Mewe, matching the inner shells
 #
 data/atomic80/kaastra_electron_yield.data
+#
+#Now we have fluorescent photon yield data from Kaastra and Mewe, matching the inner shells
+#
+data/atomic80/kaastra_fluorescent_yield.data
 #
 #Next is dielectronic recombination data from chianti.
 #
