@@ -14,7 +14,7 @@ data/atomic/topbase_levels_fe.dat
 #
 # This a new level file - all ions have ten levels - the new levels will add to those in the files above
 #
-data/atomic/topbase_all_levels_10_lev.py
+data/atomic/topbase_all_levels_10_lev.dat
 #
 # The next file is the levels used to compute line emission
 #
