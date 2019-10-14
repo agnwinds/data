@@ -2,13 +2,13 @@
 #and lines/continua of other elements from the usual standard 73 set.
 #It be treated with or without the full macro atom formalism for hydrogen and helium only.
 #first macro atom data is read in
-data/atomic_macro/h20_hetop_standard73_elem_ions.py
-data/atomic_macro/h20_levels.py
-data/atomic_macro/h20_lines.py
-data/atomic_macro/h20_phot.py
-data/atomic_macro/he_top_levels.py
-data/atomic_macro/he_top_lines.py
-data/atomic_macro/he_top_phot_macro.py
+data/atomic_macro/h20_hetop_elem_ions.dat
+data/atomic_macro/h20_levels.dat
+data/atomic_macro/h20_lines.dat
+data/atomic_macro/h20_phot.dat
+data/atomic_macro/he_top_levels.dat
+data/atomic_macro/he_top_lines.dat
+data/atomic_macro/he_top_phot_macro.dat
 #This is the standard set of data files created for python77
 data/atomic/topbase_levels_cno.dat
 data/atomic/topbase_levels_fe.dat

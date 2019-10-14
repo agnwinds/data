@@ -2,10 +2,10 @@
 #and lines/continua of other elements from the usual standard 77 set.
 #It be treated with or without the full macro atom formalism for hydrogen only.
 #first macro atom data is read in
-data/atomic_macro/h10_standard73_elem_ions.py
-data/atomic_macro/h10_levels.py
-data/atomic_macro/h10_lines.py
-data/atomic_macro/h10_phot.py
+data/atomic_macro/h10_elem_ions.dat
+data/atomic_macro/h10_levels.dat
+data/atomic_macro/h10_lines.dat
+data/atomic_macro/h10_phot.dat
 #This is the standard set of data files created for python81c - collision stength included
 #
 # This first file sets up the basics - abundances and numbers of levels allowed
