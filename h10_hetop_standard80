@@ -2,7 +2,7 @@
 #and lines/continua of other elements from the usual standard 73 set.
 #It be treated with or without the full macro atom formalism for hydrogen and helium only.
 #first macro atom data is read in
-data/atomic_macro/h10_hetop_elem_ions.dat
+data/atomic_macro/h10_hetop_standard80_elem_ions.dat
 data/atomic_macro/h10_levels.dat
 data/atomic_macro/h10_lines.dat
 data/atomic_macro/h10_phot.dat
